@@ -30,7 +30,6 @@ use zkevm_opcode_defs::{Condition, DecodedOpcode, INVALID_OPCODE_VARIANT};
 
 use nom::multi::many0_count;
 use nom::{IResult, Parser};
-use regex::internal::Input;
 use sha3::Digest;
 
 use self::operand::FullOperand;
